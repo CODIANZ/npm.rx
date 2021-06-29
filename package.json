@@ -1,0 +1,26 @@
+{
+  "name": "@codianz/rx",
+  "version": "0.0.0",
+  "description": "Rx utilities.",
+  "main": "./dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc",
+    "test": "tsc && node ./dist/test/test.js",
+    "deploy": "npm publish --access=public"
+  },
+  "author": "Terukazu Inoue",
+  "license": "MIT",
+  "homepage": "https://github.com/CODIANZ/rx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CODIANZ/rx.git"
+  },
+  "dependencies": {
+    "@codianz/loglike": "0.0.0"
+  },
+  "devDependencies": {
+    "rxjs": "^7.1.0",
+    "typescript": "^4.3.4"
+  }
+}
