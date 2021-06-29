@@ -1,6 +1,6 @@
 {
   "name": "@codianz/rx",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Rx utilities.",
   "main": "./dist/src/index.js",
   "scripts": {
@@ -9,6 +9,11 @@
     "test": "tsc && node ./dist/test/test.js",
     "deploy": "npm publish --access=public"
   },
+  "keywords": [
+    "reactive-extensions",
+    "rxjs",
+    "Typescript"
+  ],
   "author": "Terukazu Inoue",
   "license": "MIT",
   "homepage": "https://github.com/CODIANZ/rx",
@@ -17,7 +22,8 @@
     "url": "https://github.com/CODIANZ/rx.git"
   },
   "dependencies": {
-    "@codianz/loglike": "0.0.0"
+    "@codianz/loglike": "0.0.0",
+    "@codianz/utils": "0.0.1"
   },
   "devDependencies": {
     "rxjs": "^7.1.0",
