@@ -1,5 +1,5 @@
-import { Observable } from "rxjs";
-import { tap } from "rxjs/operators";
+import { NEVER, Observable, ObservableInput, ObservedValueOf, of, OperatorFunction } from "rxjs";
+import { mergeMap, tap } from "rxjs/operators";
 import { LogLike } from "@codianz/loglike";
 import * as utils from "@codianz/utils";
 
@@ -54,4 +54,10 @@ export function peep<T>(log: LogLike, s: string) {
       log.debug(`[${s}:#${index}] on completed`);
     }
   });
+}
+
+export function emitIfExists<T>() {
+  return mergeMap((v) => {
+    return v ? of(v) : NEVER;
+  })
 }
