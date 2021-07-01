@@ -1,6 +1,6 @@
 {
   "name": "@codianz/rx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rx utilities.",
   "main": "./dist/src/index.js",
   "scripts": {
@@ -16,10 +16,10 @@
   ],
   "author": "Terukazu Inoue",
   "license": "MIT",
-  "homepage": "https://github.com/CODIANZ/rx",
+  "homepage": "https://github.com/CODIANZ/npm.rx",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CODIANZ/rx.git"
+    "url": "https://github.com/CODIANZ/npm.rx.git"
   },
   "dependencies": {
     "@codianz/loglike": "0.0.0",
